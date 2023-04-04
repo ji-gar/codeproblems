@@ -1,6 +1,6 @@
 function findsubsqunce(mainarray, subarray) {
-    var i = 0;
-    var j = 0;
+    let i = 0;
+    let j = 0;
     while (i < mainarray.length && j < subarray.length) {
         if (mainarray[i] === subarray[j]) {
             j++;
