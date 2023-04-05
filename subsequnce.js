@@ -4,7 +4,7 @@ function findsubsqunce(mainarray, subarray) {
     while (i < mainarray.length && j < subarray.length) {
         if (mainarray[i] === subarray[j]) {
             j++;
-            console.log(subarray[j]);
+          console.log(subarray[j]);
         }
         i++;
     }
