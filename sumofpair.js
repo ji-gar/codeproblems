@@ -12,8 +12,7 @@ function data(temparray,sum)
             }
         }
     }
-    console.log(tempdata)
     return tempdata;
 }
 const array=[ 3, 5, 5, 8, 11, 1, -1, 6 ]
-console.log(data(array,13))
+console.log(data(array,10))
